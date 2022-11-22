@@ -1,0 +1,40 @@
+{
+    "users": [
+        {
+            "id": "1",
+            "userName": "deb100",
+            "password": "deb100",
+            "isAdmin": true,
+            "news": [
+                {
+                    "newsId": 1,
+                    "hide": false,
+                    "visited": false
+                },
+                {
+                    "newsId": "2",
+                    "hide": true,
+                    "visited": false
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "userName": "tuna100",
+            "password": "tuna100",
+            "isAdmin": false,
+            "news": [
+                {
+                    "newsId": "1",
+                    "hide": false,
+                    "visited": false
+                },
+                {
+                    "newsId": "2",
+                    "hide": false,
+                    "visited": false
+                }
+            ]
+        }
+    ]
+}

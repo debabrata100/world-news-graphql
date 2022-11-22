@@ -1,0 +1,68 @@
+// Aliases and Fragments
+{
+  User1: user(userId: "1") {
+    news{
+      ...UserNews
+    }
+  }
+  User2: user(userId: "2") {
+    news{
+      ...UserNews
+    }
+  }
+}
+
+fragment UserNews on UserNewsType {
+  newsId
+  hide
+  visited
+}
+
+// Variables
+query getUser($user1_id: ID = "1", $user2_id: ID = "2"){
+  User1: user(userId: $user1_id) {
+    news{
+      ...UserNews
+    }
+  }
+  User2: user(userId: $user2_id) {
+    news{
+      ...UserNews
+    }
+  }
+}
+
+fragment UserNews on UserNewsType {
+  newsId
+  hide
+  visited
+}
+
+// Directives
+
+query getUser($user1_id: ID = "1", $user2_id: ID = "2", $includeNews: Boolean = false){
+  User1: user(userId: $user1_id) {
+    news{
+      ...UserNews
+    }
+  }
+  User2: user(userId: $user2_id) {
+    news{
+      ...UserNews
+    }
+  }
+}
+
+fragment UserNews on UserNewsType {
+  newsId
+  hide @skip(if: $includeNews)
+  visited @skip(if: $includeNews)
+  news @include(if: $includeNews){
+    title
+    website
+    votes
+  }
+}
+
+
+

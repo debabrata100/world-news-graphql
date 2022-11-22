@@ -1,0 +1,36 @@
+{
+    "news": [
+        {
+            "id": "1",
+            "title": "THE RABBIT HOLE OF ADDING GRAIN TO DIGITAL PHOTOS",
+            "website": "https://vmoldo.com/grain-deepdive/",
+            "createdAt": "2022-11-14T16:18:53.068Z",
+            "votes": 5,
+            "isArchived": false
+        },
+        {
+            "id": "2",
+            "title": "Building an e-ink weather display for our home",
+            "website": "https://kimmo.blog/posts/7-building-eink-weather-display-for-our-home",
+            "createdAt": "2022-11-14T16:18:59.566Z",
+            "votes": 2,
+            "isArchived": false
+        },
+        {
+            "id": "3",
+            "title": "Motorola PowerStack",
+            "website": "https://www.wolfeden.org/unix-museum/motorola/powerstack.html",
+            "createdAt": "2022-11-14T16:19:08.807Z",
+            "votes": 0,
+            "isArchived": false
+        },
+        {
+            "id": "4",
+            "title": "Fast Software, the Best Softwares",
+            "website": "https://craigmod.com/essays/fast_software/",
+            "createdAt": "2022-11-14T16:53:34.812Z",
+            "votes": 0,
+            "isArchived": false
+        }
+    ]
+}

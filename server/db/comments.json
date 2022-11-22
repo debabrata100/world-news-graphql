@@ -1,0 +1,48 @@
+{
+    "comments": [
+        {
+            "id": "c-06",
+            "userId": "2",
+            "newsId": "2",
+            "isEdited": false,
+            "createdAt": "2022-11-17T17:16:35.649Z",
+            "comment": "Super !"
+        },
+        {
+            "id": "c-05",
+            "userId": "2",
+            "newsId": "1",
+            "isEdited": false,
+            "comment": "Keep it up"
+        },
+        {
+            "id": "c-04",
+            "userId": "2",
+            "newsId": "1",
+            "isEdited": true,
+            "comment": "Keep it up man!",
+            "modifiedAt": "2022-11-17T17:15:33.384Z"
+        },
+        {
+            "id": "c-03",
+            "userId": "2",
+            "newsId": "1",
+            "isEdited": false,
+            "comment": "Great blog"
+        },
+        {
+            "id": "c-02",
+            "userId": "2",
+            "newsId": "1",
+            "isEdited": false,
+            "comment": "Awesome blog"
+        },
+        {
+            "id": "1",
+            "userId": "1",
+            "newsId": "1",
+            "isEdited": false,
+            "comment": "some comment"
+        }
+    ]
+}
